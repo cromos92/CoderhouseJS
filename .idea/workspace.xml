@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b67292a9-a4e5-4238-9030-2f4d01c677cb" name="Default Changelist" comment="desafio1">
+    <list default="true" id="b67292a9-a4e5-4238-9030-2f4d01c677cb" name="Default Changelist" comment="desafio2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="desafio1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,7 +50,8 @@
       <option name="presentableId" value="Default" />
       <updated>1630454813171</updated>
       <workItem from="1630454814227" duration="719000" />
-      <workItem from="1630717833593" duration="1165000" />
+      <workItem from="1630717833593" duration="1400000" />
+      <workItem from="1631493974249" duration="689000" />
     </task>
     <task id="LOCAL-00001" summary="desafio1">
       <created>1630718290119</created>
@@ -59,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630718290119</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="desafio2">
+      <created>1630719048513</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1630719048513</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -67,7 +75,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="desafio1" />
-    <option name="LAST_COMMIT_MESSAGE" value="desafio1" />
+    <MESSAGE value="desafio2" />
+    <option name="LAST_COMMIT_MESSAGE" value="desafio2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="824" y="418" key="Github.ShareDialog" timestamp="1630718203589">
@@ -82,9 +91,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630454824096" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1630718291881">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1630719061560">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630718291881" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630719061560" />
   </component>
 </project>

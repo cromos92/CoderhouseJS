@@ -3,26 +3,25 @@
 
 //ejemplo1
 let dato1 = prompt("Ingrese un valor mayor a 1000 ");
-let estado=(dato1 >1000);
-    if (estado){
-        alert("dato ingresado correctamente");
-    } else {
-        alert("dato erroneo");
-}
-    //ejemplo 2
-let dato2 = prompt("Ingrese palabra secreta");
-let estado2=(dato2.toUpperCase()=="HOLA");
-if (estado2){
-    alert("Palabra ingresada correctamente");
-} else {
-    alert("Palabra ingresada no coincide");
+let resultado=0;
+for (let i = 0; i < dato1; i++) {
+    resultado +=10+parseInt(dato1)  ;
+    console.log("El Resultado es :"+resultado);
 }
 
-//ejemplo 3
-let dato3 = prompt("Ingrese un valor de 10 a 50");
-let estado3=(dato3 >9 && dato3<51);
-if (estado3){
-    alert("dato ingresado correctamente");
-} else {
-    alert("dato erroneo");
+//ejemplo2
+let texto = "";
+let result="";
+while (texto !=="ESC"){
+      texto  = prompt("Ingrese Palabra Secreta");
+    result=result+"-"+texto;
+    console.log("Palabras Ingresadas:"+result);
+}
+alert("Palabra Ingresada Correcta");
+
+//EJEMPLO3
+let numero =prompt("Ingrese Numero de Palabras a repetir");
+for (let i = 0; i < numero; i++) {
+
+    console.log("Hola");
 }
