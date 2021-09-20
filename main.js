@@ -10,7 +10,17 @@ class Venta{
         this.neto=parseInt(montoPagar-calcularIva(montoPagar));
         this.subscrito=subscrito;
     }
-
+       MostrarInformacion=function(){
+       alert("hola los Datos Ingresados De la Venta Son: " +
+           "\n Nombres"+this.nombreYApellido+
+           "\n Edad"+this.edad+
+           "\n Cantidad Productos"+this.cantidadProductos+
+           "\n Cantidad Productos"+this.cuotas +
+           "\n Cantidad Productos"+this.montoPagar +
+           "\n Cantidad Productos"+this.iva+
+           "\n Cantidad Productos"+this.neto+
+           "\n Cantidad Productos"+this.subscrito
+           )};
 }
 
 const calcularIva =(x)=> {return Math.round( x*0.19);};
@@ -89,4 +99,4 @@ console.log("IVA: "+calcularIva(subTotal));
 console.log("TotalPagar: "+totalFinal);
 console.log("Pagado en "+cuotas+" cuotas cada una con un valor de:"+valorCuota);
 const venta1=new Venta(nombreyApellido,25,cantidadItems,cuotas,totalFinal,Subscripcion);
-console.log(venta1);
+ venta1.MostrarInformacion();
