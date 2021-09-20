@@ -1,12 +1,26 @@
+// PROYECTO SIMULACION  COMPRA BANCARIA
+class Venta{
+    constructor(nombreApellido,edad,cantidadProductos,cuotas,montoPagar,subscrito) {
+        this.nombreYApellido=nombreApellido;
+        this.edad=edad;
+        this.cantidadProductos=cantidadProductos;
+        this.cuotas=cuotas;
+        this.montoPagar=montoPagar;
+        this.iva=calcularIva(montoPagar);
+        this.neto=parseInt(montoPagar-calcularIva(montoPagar));
+        this.subscrito=subscrito;
+    }
 
+}
 
-
-let cantidadItems =parseInt(prompt("Ingrese Cantidad de productos a comprar(Neto)"));
+const calcularIva =(x)=> {return Math.round( x*0.19);};
+let nombreyApellido = prompt("Ingrese Nombre y Apellido");
+let edad = Number(prompt("Ingrese edad"));
+let cantidadItems =parseInt(prompt("Ingrese Cantidad de productos a comprar "));
 let cuotas =parseInt(prompt("Ingrese Cantidad de Cuotas"));
-console.log(cuotas,cantidadItems);
 let aplazar =prompt("¿Quieres Aplazar la deuda por 1 mes 'Si' o 'No' ? costo del servicio 5% valor total");
 let Subscripcion =prompt("¿Quieres Subscribirte a Nuestra empresa  'Si' o 'No' ? Y Obten un 10% de descuento en tu primera compra");
-const calcularIva =(x)=> {return Math.round( x*0.19);};
+
 //funcion para calcular los precios de la canidad de productos aleotario
 const precioItem = (max,min)=> { return Math.floor(Math.random() * (max - min)) + min;};
 //funcion para valir las opciones de Si o No, para validar que sean extrictamente las palabras mencionadas
@@ -43,7 +57,6 @@ const validacionCuotasProductos = (valor,mensaje)=>{
 };
 validacionMenu(aplazar,"Opcion Ingresada Incorrecta, porfavor indicar Si o No para aplazar la deuda");
 validacionMenu(Subscripcion,"Opcion Ingresada Incorrecta, porfavor indicar Si o No para Subscribir y adquirir descuentos");
-
 validacionCuotasProductos(cuotas,"Error la cantidad de cuotas tiene que ser mayor a 0");
 validacionCuotasProductos( cantidadItems,"Error la cantidad de Productos a vender tiene que ser mayor a 0");
 let totalProductos=0;
@@ -60,15 +73,20 @@ let costoSubscribir=0;
 if (Subscripcion=="Si"){
     costoSubscribir=Math.round( totalProductos*0.1);
 }
-
-
+const calculoTasaCredito = x=> {
+    if (x < 25) return x = 0.250;
+    else if(x>=25 && x<45) return x=0.150;
+    else return x=0.2;
+}
+const subTotal=costoSubscribir+costoAplazar+totalProductos;
+let costoCredito = calculoTasaCredito(edad);
+let totalFinal=subTotal+calcularIva(subTotal)+costoAplazar-costoSubscribir+Math.round(costoCredito);
+let valorCuota = Math.round(totalFinal/cuotas);
 console.log("Costo Subscribir: "+costoSubscribir);
 console.log("Costo Aplazar: "+costoAplazar);
-const subTotal=costoSubscribir+costoAplazar+totalProductos;
 console.log("SubTotal: "+subTotal);
 console.log("IVA: "+calcularIva(subTotal));
-
-let totalFinal=subTotal+calcularIva(subTotal)+costoAplazar-costoSubscribir;
 console.log("TotalPagar: "+totalFinal);
-let valorCuota = Math.round(totalFinal/cuotas);
 console.log("Pagado en "+cuotas+" cuotas cada una con un valor de:"+valorCuota);
+const venta1=new Venta(nombreyApellido,25,cantidadItems,cuotas,totalFinal,Subscripcion);
+console.log(venta1);
