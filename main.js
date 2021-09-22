@@ -113,13 +113,9 @@ const subTotal = costoSubscribir + costoAplazar + totalProductos;
 let costoCredito = calculoTasaCredito(edad);
 let totalFinal = subTotal + calcularIva(subTotal) + costoAplazar - costoSubscribir + Math.round(costoCredito);
 let valorCuota = Math.round(totalFinal / cuotas);
-console.log("Costo Subscribir: " + costoSubscribir);
-console.log("Costo Aplazar: " + costoAplazar);
-console.log("SubTotal: " + subTotal);
-console.log("IVA: " + calcularIva(subTotal));
-console.log("TotalPagar: " + totalFinal);
-console.log("Pagado en " + cuotas + " cuotas cada una con un valor de:" + valorCuota);
+
 const venta1 = new Venta(nombreyApellido, 25, cantidadItems, cuotas, totalFinal, Subscripcion);
 venta1.MostrarInformacion();
 let ventaArr = venta1.almacenarVenta();
+
 console.log(ventaArr, productos);
