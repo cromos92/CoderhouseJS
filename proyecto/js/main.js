@@ -40,12 +40,12 @@ class Venta {
 const calcularIva = (x) => {
     return Math.round(x * 0.19);
 };
-let nombreyApellido = prompt("Ingrese Nombre y Apellido");
-let edad = Number(prompt("Ingrese edad"));
-let cantidadItems = parseInt(prompt("Ingrese Cantidad de productos a comprar "));
-let cuotas = parseInt(prompt("Ingrese Cantidad de Cuotas"));
-let aplazar = prompt("¿Quieres Aplazar la deuda por 1 mes 'Si' o 'No' ? costo del servicio 5% valor total");
-let Subscripcion = prompt("¿Quieres Subscribirte a Nuestra empresa  'Si' o 'No' ? Y Obten un 10% de descuento en tu primera compra");
+//let nombreyApellido = prompt("Ingrese Nombre y Apellido");
+//let edad = Number(prompt("Ingrese edad"));
+//let cantidadItems = parseInt(prompt("Ingrese Cantidad de productos a comprar "));
+//let cuotas = parseInt(prompt("Ingrese Cantidad de Cuotas"));
+//let aplazar = prompt("¿Quieres Aplazar la deuda por 1 mes 'Si' o 'No' ? costo del servicio 5% valor total");
+//let Subscripcion = prompt("¿Quieres Subscribirte a Nuestra empresa  'Si' o 'No' ? Y Obten un 10% de descuento en tu primera compra");
 
 //funcion para calcular los precios de la canidad de productos aleotario
 const precioItem = (max, min) => {

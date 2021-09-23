@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b67292a9-a4e5-4238-9030-2f4d01c677cb" name="Default Changelist" comment="desafio6">
+    <list default="true" id="1154bd81-4c95-44c0-a057-7f27398e2267" name="Default Changelist" comment="ajuste finales">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,98 +30,111 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="Desafio5" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1xVyzbIzqvlQHffGVy3NDqpkFQH" />
+  <component name="ProjectId" id="1vVsuK9A3KuO7znkF6Bu6xAMD6a" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../laragon/www/apiHaulmer" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cromo\Desktop\Codehouse\proyecto_entrega3\proyecto\imagenes" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b67292a9-a4e5-4238-9030-2f4d01c677cb" name="Default Changelist" comment="" />
-      <created>1630454813171</created>
+      <changelist id="1154bd81-4c95-44c0-a057-7f27398e2267" name="Default Changelist" comment="" />
+      <created>1626658811716</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1630454813171</updated>
-      <workItem from="1630454814227" duration="719000" />
-      <workItem from="1630717833593" duration="1400000" />
-      <workItem from="1631493974249" duration="5959000" />
-      <workItem from="1632098257777" duration="2968000" />
-      <workItem from="1632279416942" duration="1433000" />
+      <updated>1626658811716</updated>
+      <workItem from="1626658812737" duration="15535000" />
+      <workItem from="1627865056194" duration="101000" />
+      <workItem from="1627865518442" duration="7507000" />
+      <workItem from="1629654248067" duration="6432000" />
+      <workItem from="1629672008264" duration="7428000" />
+      <workItem from="1629948430422" duration="388000" />
     </task>
-    <task id="LOCAL-00001" summary="desafio1">
-      <created>1630718290119</created>
+    <task id="LOCAL-00001" summary="Cambios para entrega 4&#10;ingreso logo&#10;revision ortografia&#10;arreglo seccion portafolio&#10;arreglo responsive un poco mas detallado en cada html">
+      <created>1627873376254</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1630718290119</updated>
+      <updated>1627873376254</updated>
     </task>
-    <task id="LOCAL-00002" summary="desafio2">
-      <created>1630719048513</created>
+    <task id="LOCAL-00002" summary="Cambios para entrega 4&#10;ingreso logo&#10;revision ortografia&#10;arreglo seccion portafolio&#10;arreglo responsive un poco mas detallado en cada html">
+      <created>1627873411541</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1630719048513</updated>
+      <updated>1627873411541</updated>
     </task>
-    <task id="LOCAL-00003" summary="desafio3">
-      <created>1631494702430</created>
+    <task id="LOCAL-00003" summary="cambios node_module gitignore">
+      <created>1627873602970</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1631494702430</updated>
+      <updated>1627873602970</updated>
     </task>
-    <task id="LOCAL-00004" summary="desafio4">
-      <created>1631499943405</created>
+    <task id="LOCAL-00004" summary="add index para redireccionar pagina inicio">
+      <created>1627874956598</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1631499943405</updated>
+      <updated>1627874956598</updated>
     </task>
-    <task id="LOCAL-00005" summary="desafio5">
-      <created>1632100698882</created>
+    <task id="LOCAL-00005" summary="add index para redireccionar pagina inicio">
+      <created>1627875089456</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1632100698882</updated>
+      <updated>1627875089456</updated>
     </task>
-    <task id="LOCAL-00006" summary="desafio5">
-      <created>1632101344846</created>
+    <task id="LOCAL-00006" summary="add index para redireccionar pagina inicio">
+      <created>1627875141245</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1632101344846</updated>
+      <updated>1627875141245</updated>
     </task>
-    <task id="LOCAL-00007" summary="desafio6">
-      <created>1632280818117</created>
+    <task id="LOCAL-00007" summary="ajuste">
+      <created>1627875262902</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1632280818117</updated>
+      <updated>1627875262902</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ajuste entrega final coder">
+      <created>1629677295004</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1629677295004</updated>
+    </task>
+    <task id="LOCAL-00009" summary="ajuste finales">
+      <created>1629679150744</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1629679150744</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,30 +153,50 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="desafio1" />
-    <MESSAGE value="desafio2" />
-    <MESSAGE value="desafio3" />
-    <MESSAGE value="desafio4" />
-    <MESSAGE value="desafio5" />
-    <MESSAGE value="desafio6" />
-    <option name="LAST_COMMIT_MESSAGE" value="desafio6" />
+    <MESSAGE value="Cambios para entrega 4&#10;ingreso logo&#10;revision ortografia&#10;arreglo seccion portafolio&#10;arreglo responsive un poco mas detallado en cada html" />
+    <MESSAGE value="cambios node_module gitignore" />
+    <MESSAGE value="add index para redireccionar pagina inicio" />
+    <MESSAGE value="ajuste" />
+    <MESSAGE value="ajuste entrega final coder" />
+    <MESSAGE value="ajuste finales" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajuste finales" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="824" y="418" key="Github.ShareDialog" timestamp="1630718203589">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1626667470748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="824" y="418" key="Github.ShareDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630718203589" />
-    <state x="747" y="225" key="Github.UntrackedFilesDialog" timestamp="1630718214319">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1626667470748" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1629948818797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="747" y="225" key="Github.UntrackedFilesDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630718214319" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1630454824096">
+    <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1629948818797" />
+    <state x="816" y="418" key="Github.ShareDialog" timestamp="1627872121806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630454824096" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1632101351903">
+    <state x="816" y="418" key="Github.ShareDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627872121806" />
+    <state x="729" y="218" key="Github.UntrackedFilesDialog" timestamp="1627872133903">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1632101351903" />
+    <state x="729" y="218" key="Github.UntrackedFilesDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627872133903" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1627872028774">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627872028774" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1629679154643">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1629679154643" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1629666813567">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1629666813567" />
+    <state x="790" y="311" key="svn.repositoryBrowser" timestamp="1627872078465">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="790" y="311" key="svn.repositoryBrowser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627872078465" />
+    <state x="787" y="423" key="svn.upgradeDialog" timestamp="1627872078515">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="787" y="423" key="svn.upgradeDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627872078515" />
   </component>
 </project>
