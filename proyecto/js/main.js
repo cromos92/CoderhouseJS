@@ -36,7 +36,36 @@ class Venta {
         return venta;
     };
 }
+class Producto {
+    constructor(articulo, sku, cantidad, precio) {
+        this.articulo = articulo;
+        this.sku = sku;
+        this.cantidad = cantidad;
+        this.precio = precio;
 
+    }
+
+    MostrarProductosCarrito = function () {
+        alert(`hola los Datos Ingresados De la Venta Son: articulo:  ${this.articulo} 
+           sku:  ${this.sku}
+           cantidad:  ${this.cantidad}
+            precio:  ${this.precio}
+           `);
+    }
+    almacenarVentaCarrito = function () {
+        const carrito = [];
+        carrito.push({
+            'articulo': this.articulo.toUpperCase(),
+            'sku': this.sku,
+            'cantidad': this.cantidad,
+            'precio': this.precio,
+
+        })
+        return carrito;
+    };
+}
+const producto = new Producto("Articulo1",41241,2,29990);
+let infoProducto=producto.MostrarProductosCarrito();
 const calcularIva = (x) => {
     return Math.round(x * 0.19);
 };
@@ -119,3 +148,4 @@ venta1.MostrarInformacion();
 let ventaArr = venta1.almacenarVenta();
 
 console.log(ventaArr, productos);
+
