@@ -35,6 +35,31 @@ class Venta {
         })
         return venta;
     };
+    agregarDom = function (){
+        let seccion=document.getElementById("infoTransaccion");
+      seccion.innerHTML +="<li>" +this.nombreYApellido+"</li>";
+       seccion.innerHTML +="<li>" +this.edad+"</li>";
+       seccion.innerHTML +="<li>" +this.cantidadProductos+"</li>";
+       seccion.innerHTML +="<li>" +this.cuotas+"</li>";
+       seccion.innerHTML +="<li>" +this.montoPagar+"</li>";
+       seccion.innerHTML +="<li>" +this.iva+"</li>";
+       seccion.innerHTML +="<li>" +this.neto+"</li>";
+       seccion.innerHTML +="<li>" +this.subscrito+"</li>";
+    }
+    modificarDom=function (nombre,edad,cantProductos,cuotas,monto,subscrito){
+        let seccion=document.getElementsByTagName("li");
+        seccion[0].innerHTML=nombre;
+        seccion[1].innerHTML=edad;
+        seccion[2].innerHTML=cantProductos;
+        seccion[3].innerHTML=cuotas;
+        seccion[4].innerHTML=monto;
+        seccion[5].innerHTML=calcularIva(monto);
+        seccion[6].innerHTML=calcularNeto(monto);
+        seccion[7].innerHTML=subscrito;
+
+
+    }
+
 }
 class Producto {
     constructor(articulo, sku, cantidad, precio) {
@@ -64,17 +89,21 @@ class Producto {
         return carrito;
     };
 }
+
 const producto = new Producto("Articulo1",41241,2,29990);
 let infoProducto=producto.MostrarProductosCarrito();
 const calcularIva = (x) => {
     return Math.round(x * 0.19);
 };
-//let nombreyApellido = prompt("Ingrese Nombre y Apellido");
-//let edad = Number(prompt("Ingrese edad"));
-//let cantidadItems = parseInt(prompt("Ingrese Cantidad de productos a comprar "));
-//let cuotas = parseInt(prompt("Ingrese Cantidad de Cuotas"));
-//let aplazar = prompt("¿Quieres Aplazar la deuda por 1 mes 'Si' o 'No' ? costo del servicio 5% valor total");
-//let Subscripcion = prompt("¿Quieres Subscribirte a Nuestra empresa  'Si' o 'No' ? Y Obten un 10% de descuento en tu primera compra");
+const calcularNeto=(x)=>{
+    return Math.round(x / 1.19);
+}
+let nombreyApellido = prompt("Ingrese Nombre y Apellido");
+let edad = Number(prompt("Ingrese edad"));
+let cantidadItems = parseInt(prompt("Ingrese Cantidad de productos a comprar "));
+let cuotas = parseInt(prompt("Ingrese Cantidad de Cuotas"));
+let aplazar = prompt("¿Quieres Aplazar la deuda por 1 mes 'Si' o 'No' ? costo del servicio 5% valor total");
+let Subscripcion = prompt("¿Quieres Subscribirte a Nuestra empresa  'Si' o 'No' ? Y Obten un 10% de descuento en tu primera compra");
 
 //funcion para calcular los precios de la canidad de productos aleotario
 const precioItem = (max, min) => {
@@ -144,8 +173,10 @@ let totalFinal = subTotal + calcularIva(subTotal) + costoAplazar - costoSubscrib
 let valorCuota = Math.round(totalFinal / cuotas);
 
 const venta1 = new Venta(nombreyApellido, 25, cantidadItems, cuotas, totalFinal, Subscripcion);
-venta1.MostrarInformacion();
-let ventaArr = venta1.almacenarVenta();
+venta1.agregarDom();
 
-console.log(ventaArr, productos);
+setTimeout(venta1.modificarDom("Daniela",56,1,3,100000,"No"),5000);
+
+
+
 
