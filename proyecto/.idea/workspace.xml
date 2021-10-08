@@ -19,8 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d065d7b-7594-4b30-8724-89d8e8c9b2aa" name="Default Changelist" comment="desafio8">
+    <list default="true" id="4d065d7b-7594-4b30-8724-89d8e8c9b2aa" name="Default Changelist" comment="desafio9">
+      <change afterPath="$PROJECT_DIR$/js/contacto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/contacto.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/prueba.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/prueba.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
@@ -35,7 +38,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="ProyectoFinal" />
+        <entry key="$PROJECT_DIR$/.." value="desafio8" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -80,7 +83,8 @@
       <workItem from="1632793768443" duration="2638000" />
       <workItem from="1632876648095" duration="696000" />
       <workItem from="1632967249252" duration="42000" />
-      <workItem from="1633398097507" duration="2089000" />
+      <workItem from="1633398097507" duration="2303000" />
+      <workItem from="1633649461005" duration="7840000" />
     </task>
     <task id="LOCAL-00001" summary="avance proyecto final curso coderhouse js">
       <created>1632365209399</created>
@@ -103,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632796189594</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="desafio9">
+      <created>1633400273141</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1633400273141</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,7 +135,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="avance proyecto final curso coderhouse js" />
     <MESSAGE value="desafio8" />
-    <option name="LAST_COMMIT_MESSAGE" value="desafio8" />
+    <MESSAGE value="desafio9" />
+    <option name="LAST_COMMIT_MESSAGE" value="desafio9" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1632363994029">
@@ -143,9 +155,9 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1490" y="185" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1625703659583" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1632796196307">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1633400282183">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1632796196307" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1633400282183" />
   </component>
 </project>

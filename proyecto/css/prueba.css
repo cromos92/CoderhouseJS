@@ -213,3 +213,36 @@ footer {
   color: white;
   background-color: black;
   margin-top: 20px; }
+.btnEcommerce{
+  width: 100%;
+  background-color: snow;
+  margin-bottom: 5px;
+}
+.tituloProducto{
+  text-align: center;
+  font-family: Arial;
+  font-weight: bold;
+}
+.precioProducto{
+  text-align: center;
+  font-family: Arial;
+
+}
+.imagenProducto{
+
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section#galeriaProductos {
+  margin: 10px 30px 10px 30px;
+}
+.bordeSimple{
+  border-style: solid;
+
+}
+.col-md-3.bordeSimple {
+  margin: 2px;
+}

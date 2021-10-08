@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="JavierAraya"/>
+    <meta name="description" content="Empresa dedicada a la venta de zapatillas y articulos deportivos"/>
+    <meta name="keywords" content="Ecommerce, venta online, zapatillas, accesorios deportivos, futbol, babyfutbol, balon "/>
+    <meta name="vierport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/prueba.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,500;1,200;1,300;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+<header>
+
+</header>
+
+</section>
+<section id="infoTransaccion">
+    <div class="card col-md-3">
+        <form id="formCompras">
+            <div class="form-group">
+                <label for="name">Nombre y Apellido</label>
+                <input required type="text" class="form-control" id="name"   placeholder="Ingrese Nombre..">
+                <label for="monto">Monto a Pagar</label>
+                <input required type="number" class="form-control" id="monto"   placeholder="Ingrese Monto..">
+                <label for="cuota">Cuotas</label>
+                <select required name="cuota" id="cuota" class="form-control" >
+                    <option  value=""    >Seleccionar Cuotas</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+                <label for="montoCuota">Monto Cada Cuota</label>
+                <input  disabled type="number" class="form-control" id="montoCuota"   >
+                <label for="impuestos">Impuestos</label>
+                <input disabled required type="number" class="form-control" id="impuestos"   >
+                <label for="montoFinal">Monto a Financiar Más Impuestos</label>
+                <input disabled required type="number" class="form-control" id="montoFinal"   >
+            </div>
+
+
+            <button type="submit" class="btn btn-success">Ok</button>
+        </form>
+    </div>
+
+</section>
+
+
+
+<footer>
+    <h2>Siguenos En Todas Nuestras Redes Sociales</h2>
+    <div id="seccionFooter1">
+          <span id="iconCopyrigth" class="material-icons">
+copyright
+</span>
+        <h5 id="footerMensaje">Desarrollado Por TheKing. Todos los derechos reservados</h5>
+    </div>
+
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+<script src="../js/contacto.js"></script>
+</body>
+</html>
