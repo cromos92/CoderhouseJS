@@ -32,29 +32,25 @@ function actualizarCarrito(){
     for(var i = 0; i < listaProductos.length; i++) {
     contador+=listaProductos[i]['cantidad'];
     }
-    document.getElementById("cantCarrito").innerText=contador;
 
+     $("#cantCarrito").text(contador) ;
 }
-function almacenarProducto(evento) {
 
+function almacenarProducto(idNumero) {
 
-    let identificador = evento.target.attributes.value.value;
-    let titulo = document.getElementById("tituloProducto" + identificador).innerText;
-    let precio = document.getElementById("precioProducto" + identificador).innerText;
+    let titulo = $("#tituloProducto"+idNumero).text();
+    let precio =$("#tituloProducto"+idNumero).text();
     let product = new Producto(titulo,precio,1);
     product.MostrarInformacion();
     listaProductos.push(product);
     localStorage.setItem("productosCarrito",JSON.stringify(listaProductos));
    let dataProd= product.mostrarLocalStorage();
-
     actualizarCarrito();
 
 }
 
-// obtenemos todos los botones, por su clase
-var buttons = document.querySelectorAll('.btnEcommerce')
-// a cada uno le asignamos el manejador del evento.
-for(var i = 0; i < buttons.length; i++) {
-    // aqui generas el equivalente a onclick
-    buttons[i].addEventListener('click', almacenarProducto);
-}
+$( ".btnEcommerce" ).click(function() {
+    console.log(this.value);
+    almacenarProducto(this.value)
+});
+$()

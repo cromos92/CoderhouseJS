@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d065d7b-7594-4b30-8724-89d8e8c9b2aa" name="Default Changelist" comment="desafio9">
-      <change afterPath="$PROJECT_DIR$/js/contacto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/contacto.html" afterDir="false" />
+    <list default="true" id="4d065d7b-7594-4b30-8724-89d8e8c9b2aa" name="Default Changelist" comment="desafio10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/prueba.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/prueba.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
@@ -38,7 +36,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="desafio8" />
+        <entry key="$PROJECT_DIR$/.." value="desafio9" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -84,7 +82,9 @@
       <workItem from="1632876648095" duration="696000" />
       <workItem from="1632967249252" duration="42000" />
       <workItem from="1633398097507" duration="2303000" />
-      <workItem from="1633649461005" duration="7840000" />
+      <workItem from="1633649461005" duration="7969000" />
+      <workItem from="1633988183016" duration="32000" />
+      <workItem from="1634255271039" duration="1673000" />
     </task>
     <task id="LOCAL-00001" summary="avance proyecto final curso coderhouse js">
       <created>1632365209399</created>
@@ -114,7 +114,21 @@
       <option name="project" value="LOCAL" />
       <updated>1633400273141</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="desafio10">
+      <created>1633657430649</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1633657430649</updated>
+    </task>
+    <task id="LOCAL-00006" summary="desafio10">
+      <created>1633657437119</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1633657437119</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +150,8 @@
     <MESSAGE value="avance proyecto final curso coderhouse js" />
     <MESSAGE value="desafio8" />
     <MESSAGE value="desafio9" />
-    <option name="LAST_COMMIT_MESSAGE" value="desafio9" />
+    <MESSAGE value="desafio10" />
+    <option name="LAST_COMMIT_MESSAGE" value="desafio10" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1632363994029">
@@ -147,17 +162,17 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1322" y="318" key="EditFileWatcherDialog/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1625703658159" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1632967287074">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1633988212367">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1632967287074" />
+    <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1633988212367" />
     <state x="-1490" y="185" key="SettingsEditor" timestamp="1625703659583">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1490" y="185" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1625703659583" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1633400282183">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1633657442684">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1633400282183" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1633657442684" />
   </component>
 </project>
