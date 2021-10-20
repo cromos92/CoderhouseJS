@@ -19,11 +19,27 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d065d7b-7594-4b30-8724-89d8e8c9b2aa" name="Default Changelist" comment="desafio10">
+    <list default="true" id="4d065d7b-7594-4b30-8724-89d8e8c9b2aa" name="Default Changelist" comment="desafio12 hecho en index">
+      <change afterPath="$PROJECT_DIR$/css/alertify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/alertify.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/alertify.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/alertify.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/themes/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/themes/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/themes/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/themes/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/themes/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/themes/default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/themes/default.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/themes/default.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/themes/semantic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/themes/semantic.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/themes/semantic.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/themes/semantic.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/alertify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/alertify.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/prueba.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/prueba.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +52,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="desafio9" />
+        <entry key="$PROJECT_DIR$/.." value="desafio10" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -50,9 +66,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cromo\Desktop\Codehouse\curso javascript\proyecto\css" />
+      <recent name="C:\Users\cromo\Desktop\Codehouse\curso javascript\proyecto\js" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -84,7 +106,9 @@
       <workItem from="1633398097507" duration="2303000" />
       <workItem from="1633649461005" duration="7969000" />
       <workItem from="1633988183016" duration="32000" />
-      <workItem from="1634255271039" duration="1673000" />
+      <workItem from="1634255271039" duration="2310000" />
+      <workItem from="1634481464977" duration="87000" />
+      <workItem from="1634687326523" duration="2776000" />
     </task>
     <task id="LOCAL-00001" summary="avance proyecto final curso coderhouse js">
       <created>1632365209399</created>
@@ -128,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633657437119</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="desafio12 hecho en index">
+      <created>1634257128598</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1634257128598</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,28 +182,21 @@
     <MESSAGE value="desafio8" />
     <MESSAGE value="desafio9" />
     <MESSAGE value="desafio10" />
-    <option name="LAST_COMMIT_MESSAGE" value="desafio10" />
+    <MESSAGE value="desafio12 hecho en index" />
+    <option name="LAST_COMMIT_MESSAGE" value="desafio12 hecho en index" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1632363994029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1632363994029" />
-    <state x="-1322" y="318" key="EditFileWatcherDialog" timestamp="1625703658159">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1322" y="318" key="EditFileWatcherDialog/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1625703658159" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1633988212367">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1634481549766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1633988212367" />
-    <state x="-1490" y="185" key="SettingsEditor" timestamp="1625703659583">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1490" y="185" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1625703659583" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1633657442684">
+    <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1634481549766" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1634257136183">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1633657442684" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1634257136183" />
   </component>
 </project>

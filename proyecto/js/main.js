@@ -53,4 +53,39 @@ $( ".btnEcommerce" ).click(function() {
     console.log(this.value);
     almacenarProducto(this.value)
 });
-$()
+$( "#btnConsulta" ).click(function() {
+
+    fetch('https://jsonplaceholder.typicode.com/todos/'+$("#inputFind").val())
+        .then(response => response.json())
+        .then(
+
+            json =>
+    {
+        $("#resultado1").append("<li>"+json.id+"</li>");
+        $("#resultado1").append("<li>"+json.title+"</li>");
+
+    });
+    alertify
+        .alert("Datos Obtenidos Correctamente", function(){
+            alertify.message('OK');
+        });
+});
+$( "#btnConsulta2" ).click(function() {
+
+    fetch('http://hp-api.herokuapp.com/api/characters/')
+        .then(response => response.json())
+        .then(
+
+            json =>
+            {
+                for (let i=0;i<json.length;i++){
+                    $("#resultado2").append("<li>"+json[i].name+"-"+ json[i].gender+"-" + json[i].house+"</li>");
+                }
+
+            });
+    alertify
+        .alert("Datos Obtenidos Correctamente", function(){
+            alertify.message('OK');
+        });
+});
+
