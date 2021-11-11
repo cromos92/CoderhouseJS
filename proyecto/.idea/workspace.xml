@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d065d7b-7594-4b30-8724-89d8e8c9b2aa" name="Default Changelist" comment="desafio14 realizado en pagina desafio.html">
+    <list default="true" id="4d065d7b-7594-4b30-8724-89d8e8c9b2aa" name="Default Changelist" comment="3 entrega">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="desafio12" />
+        <entry key="$PROJECT_DIR$/.." value="desafio14" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -91,6 +91,7 @@
       <workItem from="1634481464977" duration="87000" />
       <workItem from="1634687326523" duration="3101000" />
       <workItem from="1634779227609" duration="26000" />
+      <workItem from="1634864036701" duration="1124000" />
     </task>
     <task id="LOCAL-00001" summary="avance proyecto final curso coderhouse js">
       <created>1632365209399</created>
@@ -148,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634692359494</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="3 entrega">
+      <created>1634864061267</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1634864061268</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,20 +181,21 @@
     <MESSAGE value="desafio10" />
     <MESSAGE value="desafio12 hecho en index" />
     <MESSAGE value="desafio14 realizado en pagina desafio.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="desafio14 realizado en pagina desafio.html" />
+    <MESSAGE value="3 entrega" />
+    <option name="LAST_COMMIT_MESSAGE" value="3 entrega" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1632363994029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1632363994029" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1634779250343">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1635041158865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1634779250343" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1634692450863">
+    <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1635041158865" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1634864067243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1634692450863" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1634864067243" />
   </component>
 </project>
